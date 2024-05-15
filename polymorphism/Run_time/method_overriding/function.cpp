@@ -25,8 +25,9 @@ class subclass2: public parent {
 int main(){
     subclass1 obj1;
     subclass2 obj2;
+    parent obj3;
 
     obj1.speak();
     obj2.speak();
-return 0;
+    return 0;
 }
